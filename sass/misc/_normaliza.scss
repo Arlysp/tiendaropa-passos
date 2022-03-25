@@ -1,0 +1,23 @@
+/* imports */
+
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme&family=Cairo:wght@600&family=Montserrat&display=swap');
+
+
+/* Normalize */
+*,
+*::after,
+*::before  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Globals */
+
+html{
+   
+    font-family: $font-primary;
+    color: $principal;
+}

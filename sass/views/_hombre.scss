@@ -1,0 +1,19 @@
+/* Hombre */
+
+#galeria {
+	.col-lg-4 {
+		margin: 0 !important;
+		padding: 25px;
+	}
+	img {
+		width: 100%;
+		height: 400px;
+		&:hover {
+			border: 1px solid lightcoral;
+			transform: rotate(-3deg);
+		}
+	}
+}
+h6 {
+	text-align: center;
+}

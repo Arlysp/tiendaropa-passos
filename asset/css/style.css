@@ -1,140 +1,104 @@
-/* reset */
+/* variable */
+/* varibales */
+/* globales */
+/* imports */
+@import url("https://fonts.googleapis.com/css2?family=BioRhyme&family=Cairo:wght@600&family=Montserrat&display=swap");
+/* Normalize */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-*::before *::after 
+/* Globals */
+html {
+  font-family: "Cairo", sans-serif;
+  color: #fff; }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* partials */
+/* HEADER Navbar*/
+.me-auto {
+  margin: 0 auto; }
 
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
-
-/* HEADER */
-
-
-
-
-.me-auto{
-    margin: 0 auto;
-}
-
-.jumbotron{
-    background: #428BCA;
-    color: #fff;
-    padding: 20px 0;
-}
-
-/* main */
-
-
-button::before,
-button::after{
-    position: absolute;
-    content: "";
-    z-index: -1;
-}
-
-#booton{
-    display: flex;
-    justify-content: center;
-    padding: 10px 0px;
-}
-
-button{
-    position: relative;
-    border: none;
-    transition: .4s ease-in;
-    z-index: 1;
-}
-.btn-1:hover{
-    box-shadow: inset -10.5em 0 0 0
-    #ff96ad, inset -10.5em 0 0 0 #ff96ad;
-}
-
-.bnt-1:hover::after{
-    width: 100%;
-}
-
-#sec1 .col-lg-4{
-    margin: 0 !important;
-    padding: 25px;
-}
-
-#sec1 img{
-    width: 100%;
-    height: 350px;
-}
-
-#sec1 img:hover{
-    border: 8px solid #f7f7f7;
-    transition: all 0.5s;
-}
-
-
-
-
-#sec2 .col-lg-4{
-    margin: 0 !important;
-    padding: 25px;
-}
-
-
-#sec2 img{
-    width: 100%;
-    height: 350px;
-}
-
-#sec2 img:hover{
-    border: 8px solid #f7f7f7;
-    transition: all 0.5s;
-}
-
-.h21{
-    text-align: center;
-    font-size: 30px;
-    font-weight: 400;
-    background: rgb(232, 0, 253);
-    color: black;
-}
-
-
-
-
-
-/* Hombre */
-
-#galeria .col-lg-4{
-    margin: 0 !important;
-    padding: 25px;
-}
-
-
-#galeria img{
-    width: 100%;
-    height: 400px;
-}
-
-#galeria img:hover{
-    border: 1px solid lightcoral;
-    transform: rotate(-3deg);
-}
-
-
-h6{
-    text-align: center;
-}
+.jumbotron {
+  background: #428BCA;
+  color: #fff;
+  padding: 20px 0; }
 
 /* Footer */
+.footer {
+  background: #DB6BE2;
+  text-align: center;
+  font-size: large; }
 
-.footer{
-    text-align: center;
-    background : #DB6BE2;
-   
-}
+/* views */
+/* main */
+button {
+  position: relative;
+  border: none;
+  transition: .4s ease-in;
+  z-index: 1; }
+  button::before {
+    position: absolute;
+    content: "";
+    z-index: -1; }
+  button::after {
+    position: absolute;
+    content: "";
+    z-index: -1; }
 
+#booton {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px; }
 
+.btn-1:hover {
+  box-shadow: inset -10.5em #f70035, inset -10.5em 0; }
+
+.bnt-1:hover::after {
+  width: 100%; }
+
+#sec1 .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px; }
+
+#sec1 img {
+  width: 100%;
+  height: 350px; }
+  #sec1 img:hover {
+    border: 8px solid #f7f7f7;
+    transition: all 0.5s; }
+
+#sec2 .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px; }
+
+#sec2 img {
+  width: 100%;
+  height: 350px; }
+  #sec2 img:hover {
+    border: 8px solid #f7f7f7;
+    transition: all 0.5s; }
+
+.h21 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  background: #e800fd;
+  color: black; }
+
+/* Hombre */
+#galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px; }
+
+#galeria img {
+  width: 100%;
+  height: 400px; }
+  #galeria img:hover {
+    border: 1px solid lightcoral;
+    transform: rotate(-3deg); }
+
+h6 {
+  text-align: center; }

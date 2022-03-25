@@ -1,0 +1,28 @@
+{
+  "name": "tiendaropa-passos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass": "node-sass --include-path scss sass/style.scss asset/css/style.css",
+    "watch-sass": "nodemon -e scss -x \"npm run build-sass\""
+
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arlysp/tiendaropa-passos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arlysp/tiendaropa-passos/issues"
+  },
+  "homepage": "https://github.com/Arlysp/tiendaropa-passos#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
